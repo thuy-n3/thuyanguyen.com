@@ -313,7 +313,7 @@ section h3.section-subheading {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
-  border: solid silver 1px;
+  border: solid fuchsia 1px;
   height: 210px;
   width:  360px;
   overflow: hidden;
@@ -356,7 +356,7 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
-  border: silver solid 1px;
+  border: fuchsia solid 1px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -696,7 +696,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
-  border:  solid silver 2px;
+  border:  solid fuchsia 2px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
