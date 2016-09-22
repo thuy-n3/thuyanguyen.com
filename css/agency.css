@@ -225,6 +225,7 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
+
 header {
   background-image: url('../img/bigstock-hipster-style-office-table-118717157.jpg');
   background-repeat: no-repeat;
@@ -236,14 +237,17 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-  opacity: 
+ /*  opacity: 1.0; */
 
 }
+
+
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-header .intro-text .intro-lead-in {
+header .intrt-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 50px;
@@ -313,7 +317,8 @@ section h3.section-subheading {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
-  border: solid fuchsia 1px;
+ /*  border: solid fuchsia 1px; */
+  border: solid silver 1px;
   height: 210px;
   width:  360px;
   overflow: hidden;
@@ -356,7 +361,7 @@ section h3.section-subheading {
   background-color: white;
   text-align: center;
   padding: 25px;
-  border: fuchsia solid 1px;
+  border: silver solid 1px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
