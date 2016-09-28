@@ -51,6 +51,7 @@ h6 {
 }
 .bg-light-gray {
   background-color: #eeeeee;
+
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -555,6 +556,7 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  height: 150px;
 }
 .team-member h4 {
   margin-top: 25px;
