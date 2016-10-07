@@ -46,6 +46,11 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+h4.phone.service-heading{
+  color: #fec503; 
+}
+
 .img-centered {
   margin: 0 auto;
 }
