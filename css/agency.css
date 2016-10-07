@@ -46,12 +46,21 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+h4.phone.service-heading{
+  color: #fec503; 
+}
+
 .img-centered {
   margin: 0 auto;
 }
 .bg-light-gray {
   background-color: #eeeeee;
+<<<<<<< HEAD
   height: 400px;
+=======
+
+>>>>>>> noMail
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -364,6 +373,7 @@ section h3.section-subheading {
   text-align: center;
   padding: 25px;
   border: silver solid 1px;
+  width: 360px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -557,7 +567,12 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+<<<<<<< HEAD
   height:  125px;
+=======
+  /* height: 150px; */
+  width: 50%;
+>>>>>>> noMail
 }
 
 .team-member h4 {
@@ -776,6 +791,4 @@ body {
   border-radius: 50%;
 }
 
-.roachImg{
 
-}
