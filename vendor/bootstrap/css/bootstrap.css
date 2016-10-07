@@ -1616,11 +1616,15 @@ pre code {
   margin-left: -15px;
 } */
 
+div.row.no-gutters{
+  width: 450px;
+  margin: auto;
+}
+
 .row .no-gutters{
   margin-left: 0;
   margin-right: 0;
-  width: 450px;
-  margin: auto;
+  
 }
 
 .row.no-gutters > [class^="col-"],
