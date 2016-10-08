@@ -489,7 +489,9 @@ section h3.section-subheading {
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) 
+
+  {
   .timeline:before {
     left: 50%;
   }
@@ -519,6 +521,10 @@ section h3.section-subheading {
     text-align: left;
     padding: 0 30px 20px 20px;
   }
+
+  
+
+
 }
 @media (min-width: 992px) {
   .timeline > li {
@@ -567,12 +573,10 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
-<<<<<<< HEAD
+/* 
   height:  125px;
-=======
-  /* height: 150px; */
   width: 50%;
->>>>>>> noMail
+ */
 }
 
 .team-member h4 {
@@ -791,4 +795,27 @@ body {
   border-radius: 50%;
 }
 
+@media (min-width: 768px){
+  div.infoIcon.col-md-4{
+    display:  inline-block;
+    width: 14%;
+  }
+  .iconContainer{
+    margin-left:  -3%;
+  }
 
+  div.contactContainer{
+    margin-left:  43%;
+  }
+  h4.phone.service-heading{
+    width: 200px;
+    display: inline-block;
+    margin-left: -97%;
+  }
+  h4.service-heading{
+    margin-left: -66%;
+  }
+  ul.list-inline{
+    margin-left: -200px;
+  }
+}
