@@ -791,7 +791,7 @@ body {
   border-radius: 50%;
 }
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   div.infoIcon.col-md-4{
     display:  inline-block;
     width: 14%;
@@ -815,4 +815,4 @@ body {
     margin-left: -200px;
   }
 }
-
+ */
