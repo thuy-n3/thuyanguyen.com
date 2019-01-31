@@ -297,6 +297,8 @@ section h2.section-heading {
 /*   margin-top: 0;
   margin-bottom: 15px; */
   margin-top: -8%;
+  text-align: center;
+
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -312,8 +314,9 @@ section h3.section-subheading {
   }
 }
 .service-heading {
-  margin: 15px 0;
+  margin: 65px 0;
   text-transform: none;
+  /* margin-top: 65px; */
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
