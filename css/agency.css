@@ -190,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #fed136; 
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -589,9 +589,8 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-section#contact {
+/* section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -620,22 +619,25 @@ section#contact ::-webkit-input-placeholder {
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
-}
-section#contact :-moz-placeholder {
-  /* Firefox 18- */
+} */
+
+ /* Firefox 18- */
+/* section#contact :-moz-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
-}
-section#contact ::-moz-placeholder {
+} */
+
   /* Firefox 19+ */
+/* section#contact ::-moz-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
-}
-section#contact :-ms-input-placeholder {
+} */
+
+/* section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -643,7 +645,8 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
-}
+} */
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -819,3 +822,8 @@ body {
   }
 }
  */
+
+
+ /* ----------- new contact section -------------  */
+
+ 
