@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-  background-image: url('../img/bigstock-hipster-style-office-table-118717157.jpg');
+  background-image: linear-gradient(rgba(26,26,26,0.7),rgba(26,26,26,0.7)), url('../img/bigstock-hipster-style-office-table-118717157.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -243,16 +243,27 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  top: 0;
+  bottom: 0; 
+ z-index:-10; 
+ /* background-image: linear-gradient(rgba(26,26,26,0.7),rgba(26,26,26,0.7)) */
 
 }
 
-
-
+/* .overlay{
+  background-color: black;
+  top: 0; 
+  bottom: 0; 
+  width: 100%;
+  z-index: 5;
+} */
 
 
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+ 
+ 
 }
 header .intrt-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -260,7 +271,7 @@ header .intrt-text .intro-lead-in {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
-  z-index: 10;
+
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -269,7 +280,7 @@ header .intro-text .intro-heading {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
-  z-index: 10;
+ 
 }
 @media (min-width: 768px) {
   header .intro-text {
