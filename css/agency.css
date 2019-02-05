@@ -367,8 +367,9 @@ section h3.section-subheading {
   width: 100%;
   height: 20px;
   font-size: 20px;
-  text-align: cen
-  margin-top: -12px;
+  text-align: center;
+  margin-top: 100px;
+
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -810,12 +811,14 @@ body {
   border-radius: 50%;
 }
 
-@media (min-width: 375px){
-  .infoIcon.col-md-4{
+@media (min-width: 667px){
+  .col-md-4{
     float:left;
   }
-
 }
+
+
+
 
 
 /* @media (min-width: 768px){
