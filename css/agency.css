@@ -826,6 +826,15 @@ body {
   }
 }
 
+@media (max-width: 635px){
+  .resumeIcon{
+    right: 50px;
+  }
+  .gitIcon{
+    left:50px;
+  }
+}
+
 
 
 
