@@ -812,46 +812,25 @@ body {
 }
 
 @media (min-width: 667px){
-  .col-md-4{
+  .infoIcon.col-md-4{
     float:left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 665px){
+  .infoIcon.col-md-4{
+    float:left;
+    width: 100%;
+    
   }
 }
 
 
 
-
-
-/* @media (min-width: 768px){
-  div.infoIcon.col-md-4{
-    display:  inline-block;
-    width: 14%;
-  }
-  .iconContainer{
-    margin-left:  -3%;
-  }
-
-  div.contactContainer{
-    margin-left:  43%;
-  }
-  h4.phone.service-heading{
-    width: 200px;
-    display: inline-block;
-    margin-left: -97%;
-  }
-  h4.service-heading{
-    margin-left: -66%;
-  }
-  ul.list-inline{
-    margin-left: -200px;
-  }
-}
- */
 
 
  /* ----------- new contact section -------------  */
-/* .col-md-4{
-  border: solid 2px #fed136;
-} */
 
 .py-4{
       padding-top: 1.5rem;
@@ -866,7 +845,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  min-width: 30%px;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -886,5 +865,4 @@ body {
 
 .btn-social{
 margin: 6px;
-
 }
